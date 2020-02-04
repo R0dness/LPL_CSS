@@ -1,0 +1,26 @@
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child {
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.flex-child.gray {
+    flex-direction: column;
+    flex-flow: column wrap
+}
+
+.gray {
+    background: #8e94b1;
+}
